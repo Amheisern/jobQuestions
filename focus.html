@@ -1,0 +1,15 @@
+<html>
+<script type="text/javascript">
+class Main {
+  get field() {
+    return 'foo';
+  }
+  getField() {
+    return this.field;
+  }
+  
+}
+var thing = new Main();
+document.write(thing.getField());
+</script>
+</html>
